@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+   }
+  *, *:before, *:after {
+    box-sizing: border-box;
+      }
+
+:root {
+  --ff-primary:'Quicksand', sans-serif;;
+  --ff-secondary: 'Source Code Pro', monospace;
+
+  --fw-reg: 300;
+  --fw-bold: 900;
+
+  --clr-right:rgb(178, 173, 250);
+  --clr-dark: #1b1515;
+  --clr-acc: #e41a78;
+  --clr-dull: gray;
+
+    --fs-h1: 4rem;
+    --fs-h2: 3rem;
+    --fs-h3: 1.2rem;
+    --fs-body: 1rem;
+}
+body {
+    background-color: var(--clr-right);
+    background: url(images/background3.jpg);
+    color: black;
+    margin: 0;
+    font-family: cursive;
+    font-size: var(--fw-reg);
+    line-height: 1.5;
+  }
+  .mynav_ul {
+      text-align: center;
+
+  }
+  
